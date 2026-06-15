@@ -1,0 +1,41 @@
+/* Hibi — shared styles for content pages (privacy, support) */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500&display=swap');
+:root{
+  --paper:#EAE0CE;--card:#F4ECDC;--ink:#2A211B;--ink-soft:#6B5D4F;
+  --line:#D8CBB3;--ember:#C0492A;--ember-soft:#E7B7A4;--espresso:#221912;--cream:#F4ECDC;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased;}
+a{color:var(--ember);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.wrap{max-width:720px;margin:0 auto;padding:0 28px;}
+
+.topbar{position:sticky;top:0;z-index:20;background:rgba(234,224,206,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);}
+.topbar-in{max-width:720px;margin:0 auto;padding:0 28px;height:66px;display:flex;align-items:center;justify-content:space-between;}
+.brand{display:flex;align-items:center;gap:10px;font-family:'Fraunces',serif;font-size:21px;font-weight:500;color:var(--ink);}
+.brand svg{width:28px;height:28px;}
+.bar-right{display:flex;align-items:center;gap:16px;}
+.home{font-size:14px;color:var(--ink-soft);}
+.home:hover{color:var(--ink);text-decoration:none;}
+.lang{display:flex;gap:2px;align-items:center;border:1px solid var(--line);border-radius:999px;padding:3px;}
+.lang button{background:none;border:none;cursor:pointer;color:var(--ink-soft);padding:5px 9px;border-radius:999px;font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.5px;}
+.lang button.on{background:var(--ink);color:var(--cream);}
+
+.doc{padding:54px 0 30px;}
+.eyebrow{font-family:'DM Mono',monospace;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--ember);margin-bottom:12px;}
+.doc h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(2.1rem,5vw,2.9rem);line-height:1.06;letter-spacing:-.01em;margin-bottom:6px;}
+.doc .tagline{font-family:'Fraunces',serif;font-style:italic;color:var(--ember);font-size:1.1rem;margin-bottom:30px;}
+.doc h2{font-family:'Fraunces',serif;font-weight:600;font-size:1.4rem;margin:34px 0 10px;}
+.doc h3{font-family:'DM Sans',sans-serif;font-weight:500;font-size:1.05rem;margin:22px 0 4px;color:var(--ink);}
+.doc p{color:var(--ink-soft);margin-bottom:14px;}
+.doc p strong, .doc .lead strong{color:var(--ink);font-weight:500;}
+.doc .lead{font-size:1.12rem;color:var(--ink-soft);margin-bottom:24px;}
+.meta{font-family:'DM Mono',monospace;font-size:13px;color:var(--ink-soft);margin-bottom:24px;}
+.note{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;font-size:.92rem;color:var(--ink-soft);margin-top:34px;}
+.lang-block{display:none;}
+.lang-block.on{display:block;}
+
+footer{border-top:1px solid var(--line);margin-top:50px;}
+.foot-in{max-width:720px;margin:0 auto;padding:30px 28px 50px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
+  font-family:'DM Mono',monospace;font-size:12.5px;letter-spacing:.3px;color:var(--ink-soft);}
+.foot-in a{color:var(--ink-soft);}
