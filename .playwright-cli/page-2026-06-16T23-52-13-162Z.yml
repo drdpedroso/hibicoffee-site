@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "hibi" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - img [ref=e5]
+        - text: hibi
+      - generic [ref=e8]:
+        - link "Features" [ref=e9] [cursor=pointer]:
+          - /url: "#features"
+        - link "Methods" [ref=e10] [cursor=pointer]:
+          - /url: "#methods"
+        - link "Why Hibi" [ref=e11] [cursor=pointer]:
+          - /url: "#ethos"
+        - generic [ref=e12]:
+          - button "EN" [ref=e13] [cursor=pointer]
+          - button "PT" [ref=e14] [cursor=pointer]
+          - button "ES" [ref=e15] [cursor=pointer]
+        - link "Get the app" [ref=e16] [cursor=pointer]:
+          - /url: https://apps.apple.com/us/app/hibi-coffee/id6777726629
+  - banner [ref=e17]:
+    - img
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: 日々 · day by day
+        - heading "A calmer way to brew, every single day." [level=1] [ref=e21]
+        - paragraph [ref=e22]: "Hibi brings the three things you reach for every morning into one quiet space: a recipe calculator, a guided brew timer, and a tasting journal."
+        - generic [ref=e23]:
+          - link "Download on the App Store" [ref=e24] [cursor=pointer]:
+            - /url: https://apps.apple.com/us/app/hibi-coffee/id6777726629
+            - img [ref=e25]
+            - generic [ref=e27]: Download on the App Store
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Google Play — coming soon
+        - generic [ref=e32]: 5 methods · famous barista recipes · no ads, no accounts
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: HARIO V60 · 0:11
+          - generic [ref=e39]: END
+        - generic [ref=e47]:
+          - img [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]: ✺
+            - generic [ref=e53]: 30g
+            - generic [ref=e54]: 0:33
+        - generic [ref=e55]:
+          - heading "Bloom" [level=3] [ref=e56]
+          - paragraph [ref=e57]: Pour twice your coffee weight, slowly, from the center outward.
+        - generic [ref=e58]:
+          - generic [ref=e59]: Pause
+          - generic [ref=e60]: Next
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]: The ritual
+      - heading "Everything you need beside the kettle." [level=2] [ref=e65]
+      - paragraph [ref=e66]: Three tools that work as one flow — calculate, brew, and remember.
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - img [ref=e70]
+        - heading "Recipe calculator" [level=3] [ref=e72]
+        - paragraph [ref=e73]: Set your dose and ratio and watch the water, temperature, and grind update instantly — for every method.
+      - generic [ref=e74]:
+        - img [ref=e76]
+        - heading "Guided timer" [level=3] [ref=e78]
+        - paragraph [ref=e79]: Step-by-step pours with the exact weight to hit on your scale at every moment. It keeps perfect time, even backgrounded.
+      - generic [ref=e80]:
+        - img [ref=e82]
+        - heading "Tasting journal" [level=3] [ref=e84]
+        - paragraph [ref=e85]: Log dose, grind, rating, and notes with the gear you used. Over time, you'll see what works for every bean.
+  - generic [ref=e89]:
+    - generic [ref=e90]:
+      - generic [ref=e91]: Brewing mode
+      - heading "Guided pours, to the gram." [level=2] [ref=e92]
+      - paragraph [ref=e93]: When you start a brew, the lights dim. Hibi walks you through each step and shows the one number that matters — the weight on your scale.
+      - generic [ref=e94]:
+        - generic [ref=e97]: Bloom, pours, steep, and press — timed for you.
+        - generic [ref=e100]: Timestamp-accurate, so it never drifts when your phone locks.
+        - generic [ref=e103]: A quiet tip on each step, when it helps.
+    - generic [ref=e107]:
+      - generic [ref=e108]:
+        - generic [ref=e109]: HARIO V60 · 0:43
+        - generic [ref=e110]: END
+      - generic [ref=e118]:
+        - img [ref=e119]
+        - generic [ref=e122]:
+          - generic [ref=e123]: ↓
+          - generic [ref=e124]: 90g
+          - generic [ref=e125]: 0:29
+      - generic [ref=e126]:
+        - heading "First pour" [level=3] [ref=e127]
+        - paragraph [ref=e128]: Pour in slow circles up to 40% of your total water.
+      - generic [ref=e129]:
+        - generic [ref=e130]: Pause
+        - generic [ref=e131]: Next
+  - generic [ref=e133]:
+    - generic [ref=e134]:
+      - generic [ref=e135]: The library
+      - heading "Five methods. Recipes worth stealing." [level=2] [ref=e136]
+      - paragraph [ref=e137]: Start from the app's reference recipe, go fully custom, or load a famous one.
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - generic [ref=e140]: POUR
+        - text: Hario V60
+      - generic [ref=e141]:
+        - generic [ref=e142]: IMMERSION
+        - text: AeroPress
+      - generic [ref=e143]:
+        - generic [ref=e144]: POUR
+        - text: Chemex
+      - generic [ref=e145]:
+        - generic [ref=e146]: IMMERSION
+        - text: French Press
+      - generic [ref=e147]:
+        - generic [ref=e148]: PRESSURE
+        - text: Moka Pot
+    - paragraph [ref=e149]: Load celebrated recipes from world-class baristas — including James Hoffmann's Ultimate techniques and Tetsu Kasuya's championship 4:6 method — then adjust to taste and save your own.
+  - generic [ref=e151]:
+    - generic [ref=e152]:
+      - generic [ref=e153]: Why Hibi
+      - heading "Built to be calm." [level=2] [ref=e154]
+      - paragraph [ref=e155]: Inspired by Japanese café culture and minimalism — the care of a tasting journal, the quiet of a kissaten.
+    - generic [ref=e156]:
+      - generic [ref=e157]:
+        - generic [ref=e158]: Private
+        - heading "Stays on your device" [level=3] [ref=e159]
+        - paragraph [ref=e160]: No accounts, no cloud. Your brews are yours.
+      - generic [ref=e161]:
+        - generic [ref=e162]: Quiet
+        - heading "No ads, ever" [level=3] [ref=e163]
+        - paragraph [ref=e164]: Nothing flashing for your attention — just you and a better cup.
+      - generic [ref=e165]:
+        - generic [ref=e166]: Considered
+        - heading "Every detail intentional" [level=3] [ref=e167]
+        - paragraph [ref=e168]: From the ensō mark to the gram-perfect timer, nothing is filler.
+  - generic [ref=e169]:
+    - img
+    - generic [ref=e170]:
+      - generic [ref=e171]: Coffee, day by day
+      - heading "Start your daily ritual." [level=2] [ref=e172]
+      - paragraph [ref=e173]: Hibi is coming soon to the App Store. A better cup, one day at a time.
+      - generic [ref=e174]:
+        - link "Download on the App Store" [ref=e175] [cursor=pointer]:
+          - /url: https://apps.apple.com/us/app/hibi-coffee/id6777726629
+          - img [ref=e176]
+          - generic [ref=e178]: Download on the App Store
+        - generic [ref=e179]:
+          - img [ref=e180]
+          - generic [ref=e182]: Google Play — coming soon
+  - contentinfo [ref=e183]:
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - img [ref=e188]
+            - text: hibi
+          - paragraph [ref=e191]: Coffee, day by day.
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - heading "App" [level=4] [ref=e194]
+            - link "Features" [ref=e195] [cursor=pointer]:
+              - /url: "#features"
+            - link "Methods" [ref=e196] [cursor=pointer]:
+              - /url: "#methods"
+            - link "Why Hibi" [ref=e197] [cursor=pointer]:
+              - /url: "#ethos"
+          - generic [ref=e198]:
+            - heading "Support" [level=4] [ref=e199]
+            - link "Help" [ref=e200] [cursor=pointer]:
+              - /url: support.html
+            - link "Contact" [ref=e201] [cursor=pointer]:
+              - /url: mailto:hello@hibicoffee.app
+            - link "Privacy" [ref=e202] [cursor=pointer]:
+              - /url: privacy.html
+      - generic [ref=e203]:
+        - generic [ref=e204]: © 2026 Hibi
+        - generic [ref=e205]: 日々 · made for the everyday cup
