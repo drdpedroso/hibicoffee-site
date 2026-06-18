@@ -56,8 +56,8 @@ After deploying, test the preview with the
   (and the footer Contact link in `index.html`). Swap in your real address.
 - **Privacy policy:** set the effective date and the owning entity
   (`[Your name / company]`) in `privacy.html`.
-- **App Store button:** currently "Coming soon". Replace with the official Apple
-  badge and your App Store link at launch.
+- **Google Play button:** currently "Coming soon". Replace with the official Google
+  Play badge and your Google Play link at launch.
 
 ## Custom domain (optional)
 
